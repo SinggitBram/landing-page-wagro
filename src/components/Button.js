@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Button.css";
-const Button = ({ theLink, btnName, primary, big }) => {
+const Button = ({ to, btnName, primary, big }) => {
   return (
     <div>
       <Link
         className="globalButton"
-        to={theLink}
+        to={to}
         style={{
           background: primary === "true" ? "#000d1a" : "#CD853F",
           color: primary === "true" ? "#fff" : "#000d1a",

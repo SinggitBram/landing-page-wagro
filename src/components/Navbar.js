@@ -23,7 +23,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="navBtn">
-        <Button theLink="/contact" btnName="Contact Us" primary='true' />
+        <Button to="/contact" btnName="Contact Us" primary='true' />
       </div>
     </div>
   );

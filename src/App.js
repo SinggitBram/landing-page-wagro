@@ -1,12 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import './App.css';
-import Navbar from './components/Navbar';
+import "./App.css";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import { SliderData } from "./data/SliderData";
 
 function App() {
   return (
     <div className="App">
-        <Navbar/>
+      <Navbar />
+      <Hero slides={SliderData}/>
     </div>
   );
 }
