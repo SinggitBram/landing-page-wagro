@@ -1,0 +1,80 @@
+.footerContainer {
+  width: 100vw;
+  background-color: black;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainFooter {
+  display: flex;
+  height: 150px;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+.bigWord {
+  /* flex-grow: 2; */
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+
+}
+
+.bigWord>h1 {
+  color: white;
+  font-size: 50px;
+  padding-left: 50px;
+  flex-basis: 60%;
+}
+
+.detailFooter {
+  flex-basis: 40%;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-evenly
+}
+
+.productFooter>h3,
+.productFooter>h5,
+.contactFooter>h3,
+.contactFooter>h5,
+.sosmedLink>h4,
+.companyFooter>h3,
+.companyFooter>h5 {
+  color: white;
+}
+
+.bottomFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 60px;
+
+}
+
+.sosmedLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px
+}
+
+.btnFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoSosmed {
+  color: white;
+  font-size: 30px
+}
+
+.productFooter>*,
+.companyFooter>*,
+.contactFooter>* {
+  line-height: 1.6;
+}

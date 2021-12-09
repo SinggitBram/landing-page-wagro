@@ -6,7 +6,12 @@
   position: fixed;
   width: 100%;
   z-index: 100;
-  /* background: red; */
+  transition: 0.4s;
+}
+
+.nav.active {
+  background: #CD853F;
+  transition: 0.4s;
 }
 
 .navMenuLinks {
