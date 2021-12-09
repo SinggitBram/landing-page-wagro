@@ -14,21 +14,21 @@ function Footer() {
         <div className="detailFooter">
           <div className="productFooter">
             <h3>Product</h3>
-            <h5>House</h5>
-            <h5>Villa</h5>
-            <h5>Koi Pond</h5>
+            <p>House</p>
+            <p>Villa</p>
+            <p>Koi Pond</p>
           </div>
           <div className="companyFooter">
             <h3>Company</h3>
-            <h5>About</h5>
-            <h5>Customers</h5>
-            <h5>Careers</h5>
+            <p>About</p>
+            <p>Customers</p>
+            <p>Careers</p>
           </div>
           <div className="contactFooter">
             <h3>Contact Us</h3>
-            <h5>FAQ</h5>
-            <h5>Support</h5>
-            <h5>Questions</h5>
+            <p>FAQ</p>
+            <p>Support</p>
+            <p>Questions</p>
           </div>
         </div>
       </div>
