@@ -1,13 +1,13 @@
 .footerContainer {
   width: 100vw;
   background-color: black;
-  height: 240px;
+  height: 210px;
   display: flex;
   flex-direction: column;
 }
 
 .mainFooter {
-    padding-top: 30px;
+  padding-top: 20px;
   display: flex;
   height: 150px;
   width: 100vw;
@@ -46,7 +46,7 @@
 .bottomFooter {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+
   margin-left: 50px;
   margin-right: 60px;
 
