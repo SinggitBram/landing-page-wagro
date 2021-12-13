@@ -28,10 +28,10 @@ const Navbar = ({ toggle }) => {
           About
         </Link>
         <Link className="navMenuLinks" to="/home">
-          Home
+          Homes
         </Link>
         <Link className="navMenuLinks" to="/rentals">
-          Rentals
+          Villa
         </Link>
       </div>
       <div className="navBtn">
