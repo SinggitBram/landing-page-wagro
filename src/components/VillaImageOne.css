@@ -1,0 +1,23 @@
+.paraImage {
+  /* position: relative; */
+  height: 100vh;
+}
+
+.villaContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+
+.villaContent span.imgVillaText {
+
+  background-color: #333;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+}

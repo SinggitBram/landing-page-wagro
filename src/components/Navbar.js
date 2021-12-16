@@ -30,7 +30,7 @@ const Navbar = ({ toggle }) => {
         <Link className="navMenuLinks" to="/home">
           Homes
         </Link>
-        <Link className="navMenuLinks" to="/rentals">
+        <Link className="navMenuLinks" to="/villa">
           Villa
         </Link>
       </div>
